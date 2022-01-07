@@ -1,0 +1,5 @@
+import pandas as pd
+from sklearn.datasets import load_digits
+
+dataSet = load_digits()
+dataSet.keys()
